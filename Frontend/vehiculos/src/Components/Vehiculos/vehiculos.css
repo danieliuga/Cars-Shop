@@ -1,0 +1,26 @@
+.vehiculos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.vehiculo {
+    border: 2px solid black;
+    padding: 1.2vmax;
+}
+
+.vehiculo img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.vehicle-title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.vehicle-title,
+.vehiculos p {
+    margin-bottom: 1vmax;
+}

@@ -30,7 +30,7 @@ function App() {
       <header className="header">
         <h1>Lista de Vehículos</h1>
       </header>
-      <div className='vehiculos'>
+      <div className='showVehiculos'>
         {vehiculos.map((vehiculo, index) => (
           <div key={vehiculo.id} className="vehiculo">
             <img src={vehiculo.imagen} alt={vehiculo.imagen} />
